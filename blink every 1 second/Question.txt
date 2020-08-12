@@ -1,4 +1,4 @@
-Q1 (40 pts) Start PICSimLab. Select the board McLab2. Select PIC16F877A as
+Q1 Start PICSimLab. Select the board McLab2. Select PIC16F877A as
 microcontroller using the micro-controller tab. Configure the microcontroller through your
 code as follows:
 #pragma config FOSC = XT // Oscillator Selection bits (XT oscillator)
