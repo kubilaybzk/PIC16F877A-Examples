@@ -11,7 +11,6 @@ Start PICSimLab. Select the board McLab2. Select PIC16F877A as microcontroller u
 Program the microcontroller so that the most significant 8-bit of the analog to digital conversion is shown on 3 seven-segment displays on the board. Validate its operation by changing the Pot P2. The result shown to the display should blink every 1 second as depicted in Solution_Video_1.
  
 ![image](https://user-images.githubusercontent.com/48950686/90071670-a833ea80-dcfe-11ea-91f6-d7a5843ab151.png)
-![](blink every 1 second/Solution_Video_1.mp4)
 Figure 1. Most significant 8-bit of the analog to digital conversion result is shown on 3 displays.
 
 Important Note 1: Set the prescaler for TIMER0 to 1:256 using OPTION_REG register. You are not allowed to use any other prescaler value for this task. Set the clock frequency to 4 MHz.
