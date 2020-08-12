@@ -1,0 +1,22 @@
+Start PICSimLab. Select the board McLab2. Select PIC16F877A as
+microcontroller using the micro-controller tab. Configure the microcontroller through your
+code as follows:
+#pragma config FOSC = XT // Oscillator Selection bits (XT oscillator)
+#pragma config WDTE = OFF // Watchdog Timer Enable bit (WDT disabled)
+#pragma config PWRTE = OFF // Power-up Timer Enable bit (PWRT disabled)
+#pragma config BOREN = OFF // Brown-out Reset Enable bit (BOR disabled)
+#pragma config LVP = OFF // Low-Voltage (Single-Supply) In-Circuit Serial
+Programming Enable bit (RB3 is digital I/O, HV on MCLR must be used for
+programming)
+#pragma config CPD = OFF // Data EEPROM Memory Code Protection bit (Data
+EEPROM code protection off)
+#pragma config WRT = OFF // Flash Program Memory Write Enable bits (Write
+protection off; all program memory may be written to by EECON control)
+#pragma config CP = OFF // Flash Program Memory Code Protection bit (Code
+protection off)
+Program the microcontroller so that one-digit decimal number on the right-most display is
+- incremented every 0.2 second if S3 is continuously pressed.
+- decremented every 0.2 second if S4 is continuously pressed.
+- not changed if none of the switches is pressed as shown in Solution_Video_2.
+The number shown on the display will be 0(zero) when 9 is incremented. Similarly, the
+number shown will be 9 when 0(zero) is decremented as shown in Solution_Video_2.

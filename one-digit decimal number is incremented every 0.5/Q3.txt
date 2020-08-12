@@ -1,0 +1,7 @@
+Q3 (30 pts) Start PICSimLab. Select the board McLab2. Select PIC16F877A as
+microcontroller using the micro-controller tab. Configure the microcontroller through your
+code as follows:
+__CONFIG _FOSC_XT &amp; _WDTE_OFF &amp; _PWRTE_OFF &amp; _MCLRE_OFF &amp; _BOREN_OFF &amp;
+_LVP_OFF &amp; _CPD_OFF &amp; _CP_OFF
+Program the microcontroller so that one-digit decimal number is incremented every 0.5
+second as shown in Solution_Video_3.
