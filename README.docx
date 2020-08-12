@@ -56,3 +56,6 @@ Important Note 1: Set the prescaler for TIMER0 to 1:128 using OPTION_REG registe
 Important Note 2: You will lose 2 points for use of each variable or instruction which has no function for the task described above.  
 Important Note 3: This task will be implemented in Assembly programming language. No point will be given if the program is written in C programming language.   
 Important Note 4: The display should show 0(zero) after incrementing 9(nine) as shown in Solution_Video_3 (Implementation of this feature corresponds to 20 pts). Hint: you may use subtraction to detect that the decimal number is larger than 9 after incrementing. Or, you may use subtraction to understand that the decimal number is equal to 10 after incrementing. You may check the result of the arithmetic operation be checking STATUS,C or STATUS,Z.
+
+her is my Microprocessors final homework problems and their solutions.
+Professor: Mehmet Kocatürk (mkocaturk@medipol.edu.tr)
